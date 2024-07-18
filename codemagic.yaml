@@ -4,7 +4,9 @@ workflows:
         scripts:
           - name : CICD Started
             script : echo "Welcome to your CICD set up"
+          - name : Build Faceid
+            script : xcodebuid buid -workspace "project.workspace" - scheme "AuthnticationFaceIDTouchID"  CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         publishing:
           email:
             recipients:
-              - munashechibaya8@gmail.com
+              - munashechibaya8@gmail.com 

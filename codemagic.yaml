@@ -1,0 +1,10 @@
+workflows:
+    faceid-workflow:
+        name: Faceid Pipeline
+        scripts:
+          - name : CICD Started
+            scripts : echo "Welcome to your CICD set up"
+        publishing:
+          email:
+            recipients:
+              -munashechibaya8@gmail.com
